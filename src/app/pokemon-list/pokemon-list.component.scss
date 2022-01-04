@@ -1,4 +1,5 @@
 :host {
-  display: flex;
-  flex-wrap: wrap;
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(13.4375rem, 1fr));
+  gap: 1.875rem 0.3125rem;
 }
